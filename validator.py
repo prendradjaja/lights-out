@@ -1,5 +1,5 @@
 def main():
-    for line in open('key', 'r'):
+    for line in open('mnemonics', 'r'):
         if is_data_line(line):
             check_line(line)
 
